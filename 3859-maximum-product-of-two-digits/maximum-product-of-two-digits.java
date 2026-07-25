@@ -4,7 +4,7 @@ class Solution {
         int m2 = -1;
         while(n>0){
             int d = n%10;
-            if(d >= m1){
+            if(d > m1){
                 m2 = m1;
                 m1 = d;
             }
